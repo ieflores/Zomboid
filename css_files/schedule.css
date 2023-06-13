@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main_bg{
+    background-image: url(background.jpg);
+    max-width: 1280px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+
+.form{
+    width: 650px;
+    height: 700px;
+    background-color: #fff;
+}
+
+.form-text{
+    text-align: center;
+    margin: 40px 0;
+}
+
+.main-form div{
+    margin: 10px 10px;
+    width: 300px;
+    display: inline-block;
+}
+.main-form div input {
+    width: 100%;
+}
+.main-form div select {
+    width: 100%;
+}
+
+
+
+
+#submit{
+    width: 100%;
+    text-align: center;
+}
+#submit input{
+    width: 200px;
+}
