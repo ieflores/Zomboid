@@ -50,12 +50,12 @@ $i = 0;
     </div> 
     <div style="margin-left:100px">
     
-        <label>Title:</label>
-        <input type="text" name="sbj" style="margin-left:13px" required><br>
-        <label>Description:</label>
-        <input type="text" name="msg" style="width: 300px; height: 200px;"  required><br>
-        <input type="file" name="uploadfile" id="uploadfile" value="" style="margin-left:74px"><br>
-        <input type="submit" value="Submit">
+        <label style=""><b>Title:</b><br></label>
+        <input type="text" name="sbj" style="margin-left: 0px; padding: 15px; outline:  none; border: 2px solid #ccc; box-sizing: border-box;" required><br><br>
+        <label><b>Description:</b><br></label>
+        <input type="text" name="msg" style="width: 300px; height: 200px; padding: 15px; outline:  none; border: 2px solid #ccc; box-sizing: border-box;"  required><br><br>
+        <input type="file" name="uploadfile" id="uploadfile" value="" style="margin-left:0px;"><br><br>
+        <input type="submit" value="Submit" style="width: 100px; height: 30px; background-color: #ddd900; color: black; font-size: 16px; cursor: pointer;">
  
     </div>
                 

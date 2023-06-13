@@ -11,20 +11,14 @@ $i = 0;
     <h1>Guidance Activities</h1>
     <div class="row">
     <?php while($frow = mysqli_fetch_array($result1)) { $i++?>
+        <a class = "links" style=" color: black; text-decoration:none;" href="components/blogview.php?id=<?=$frow['id'];?>">
         <div class="facilities-col">
             <img src="images/bimg/<?=$frow['filename']?>">
             <h3><?=$frow['sbj']?></h3>
         </div>
+        </a>
         <?php } ?>
-        <!-- <div class="facilities-col">
-            <img src="images/basketball.png">
-            <h3>Interviews</h3>
-            </div>
-        <div class="facilities-col">
-            <img src="images/cafeteria.png">
-            <h3>Counseling</h3>
-            </div>    
-    </div> -->
+        
 </section>
 
     

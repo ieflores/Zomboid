@@ -115,7 +115,7 @@ mysqli_close($con);
             </div>
         
             <div class="inqBtn">
-                <button class="i-button">Button</button>
+            <a href="components/icsv.php"><button class="i-button">Download CSV</button></a>
             </div>
 
         </div>

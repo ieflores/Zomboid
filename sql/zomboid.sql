@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 13, 2023 at 06:17 PM
+-- Generation Time: Jun 13, 2023 at 09:28 PM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 8.0.13
 
@@ -66,6 +66,25 @@ CREATE TABLE `appoint` (
   `dt` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+--
+-- Dumping data for table `appoint`
+--
+
+INSERT INTO `appoint` (`id`, `aid`, `aname`, `aemail`, `sbj`, `prem`, `tm`, `dt`) VALUES
+(4, 2020141242, 'ivan flores', 'ilflores@student.apc.edu.ph', 'Subject 1', 'School Premise', '14:20:00', '2023-06-16'),
+(5, 2020141242, 'ivan flores', 'ilflores@student.apc.edu.ph', 'Subject 1', 'School Premise', '14:20:00', '2023-06-16'),
+(6, 2020141242, 'ivan flores', 'ilflores@student.apc.edu.ph', 'Subject 1', 'School Premise', '14:20:00', '2023-06-16'),
+(7, 2020141242, 'ivan flores', 'ilflores@student.apc.edu.ph', 'Subject 1', 'School Premise', '14:20:00', '2023-06-16'),
+(8, 2020141242, 'ivan flores', 'ilflores@student.apc.edu.ph', 'Subject 2', 'School Premise', '14:21:00', '2023-06-16'),
+(9, 2020141242, 'ivan flores', 'ilflores@student.apc.edu.ph', 'Subject 1', 'School Premise', '15:22:00', '2023-06-16'),
+(10, 2020141242, 'ivan flores', 'ilflores@student.apc.edu.ph', 'Subject 2', 'Online', '14:25:00', '2023-06-16'),
+(11, 2020141242, 'ivan flores', 'ilflores@student.apc.edu.ph', 'Subject 1', 'School Premise', '16:23:00', '2023-06-16'),
+(12, 2020141242, 'ivan flores', 'ilflores@student.apc.edu.ph', 'Subject 2', 'Online', '15:24:00', '2023-06-16'),
+(13, 2020141242, 'ivan flores', 'ilflores@student.apc.edu.ph', 'Subject 1', 'School Premise', '14:26:00', '2023-06-16'),
+(14, 2020141242, 'ivan flores', 'ilflores@student.apc.edu.ph', 'Subject 2', 'School Premise', '16:27:00', '2023-06-16'),
+(15, 2020141242, 'ivan flores', 'ilflores@student.apc.edu.ph', 'Subject 2', 'Online', '14:28:00', '2023-06-15'),
+(16, 2020141242, 'ivan flores', 'ilflores@student.apc.edu.ph', 'Subject 2', 'School Premise', '16:30:00', '2023-06-16');
+
 -- --------------------------------------------------------
 
 --
@@ -79,6 +98,15 @@ CREATE TABLE `blog` (
   `filename` varchar(255) NOT NULL,
   `dt` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `blog`
+--
+
+INSERT INTO `blog` (`id`, `sbj`, `msg`, `filename`, `dt`) VALUES
+(3, 'sfgsdfa', 'vdsva', 'guidance-poster.png', '2023-06-14 03:01:08'),
+(4, 'dasdvav', 'sagvaasd', '100t.jpg', '2023-06-14 03:18:39'),
+(5, 'fadbaffas', 'afadbbfd', '0a5d44bfb28cdcaf068aaf03dc55549f.jpg', '2023-06-14 03:26:59');
 
 -- --------------------------------------------------------
 
@@ -138,13 +166,13 @@ ALTER TABLE `accounts`
 -- AUTO_INCREMENT for table `appoint`
 --
 ALTER TABLE `appoint`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT for table `blog`
 --
 ALTER TABLE `blog`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `inquiry`

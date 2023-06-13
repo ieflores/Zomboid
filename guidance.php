@@ -148,7 +148,7 @@ mysqli_close($con);
             </div>
             
             <div class="appointBtn">
-                <button class="a-button">Button</button>
+                <a href="components/acsv.php"><button class="a-button">Download CSV</button></a>
             </div>
             
         </div>

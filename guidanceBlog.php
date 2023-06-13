@@ -45,7 +45,7 @@ $result = mysqli_query($con,$sql);
 
     <div class="cards">
     <h1>Posts</h1>
-    <a href="components/guidanceBlogadd.php"><Button>Add Post</Button></a>
+    <a href="components/guidanceBlogadd.php"><Button style="margin-top: 5px; width: 100px; height: 30px; background-color: #ddd900; color: black; font-size: 16px; cursor: pointer;">Add Post</Button></a>
     </div> 
     <div style="margin-left:100px">
 
@@ -56,7 +56,7 @@ $result = mysqli_query($con,$sql);
             $newtime = date('F j, Y h:i A', $time);
             ?>
 
-    <div style="background-color: grey; width: 300px; height: 300px; ">
+    <div style="background-color: lightgray; width: 350px; height: 300px; ">
     <h2><?=$row['sbj']?>
     <a  class = "links" href="components/guidanceBlogedit.php?id=<?=$row['id'];?>"><i class="far fa-edit"></i></a>
     <a  class = "links" href="components/bdelete.php?id=<?=$row['id'];?>"><i class="far fa-trash-alt"> </i></a>

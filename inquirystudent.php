@@ -32,30 +32,25 @@ family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
 <!------ content ------>
 
 <section class="contact-us">
-
-        <div class="inq-contain">
+    <div class="inq-contain">
             <div class="contact-col" >
-
-                    <container class="faqlbl">
-                        <label for="faq"><b>Enter your subject</b><br></label>
-                        <select id="isbj" name="isbj">
-                            <option value=""></option>
-                            <option value="Request for change in Appointment Schedule setting">Request for change in Appointment Schedule setting</option>
-                            <option value="Financial Assistance">Financial Assistance</option>
-                            <option value=""></option>
-                        </select>
-                    </container>
-                    <input type="hidden" id="iid" name="iid" value="<?=$_SESSION["id"]?>">
-                    <input type="hidden" id="iname" name="iname" value="<?=$_SESSION["fname"]. " " . $_SESSION["lname"]?>">
-                    <input type="hidden"  id="iemail" name="iemail" value="<?=$_SESSION["username"]?>">
-                    <textarea rows="8" id="imsg" name="imsg" placeholder="Message" required></textarea>
-                    <button type="submit" class="submitbtn">Send Message</button>
-
-                </form>
-
-            </div>
+                <container class="faqlbl">
+                    <label for="faq"><b>Enter your subject</b><br></label>
+                    <select id="isbj" name="isbj">
+                        <option value=""></option>
+                        <option value="Request for change in Appointment Schedule setting">Request for change in Appointment Schedule setting</option>
+                        <option value="Financial Assistance">Financial Assistance</option>
+                        <option value=""></option>
+                    </select>
+                </container>
+                <input type="hidden" id="iid" name="iid" value="<?=$_SESSION["id"]?>">
+                <input type="hidden" id="iname" name="iname" value="<?=$_SESSION["fname"]. " " . $_SESSION["lname"]?>">
+                <input type="hidden"  id="iemail" name="iemail" value="<?=$_SESSION["username"]?>">
+                <textarea rows="8" id="imsg" name="imsg" placeholder="Message" style="border: 2px solid #ccc; box-sizing: border-box; padding: 15px;" required></textarea>
+                <button type="submit" class="submitbtn">Send Message</button>
+</form>
         </div>
-
+    </div>
 </section>
 
 

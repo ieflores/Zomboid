@@ -473,7 +473,7 @@ input[type=email] {
 }
 
 /* Regular Inquiry */
-.faqlbl select{
+.faqlbl select {
     width: 400px;
     padding: 15px;
     margin-bottom: 25px;

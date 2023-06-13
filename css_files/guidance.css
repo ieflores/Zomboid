@@ -375,11 +375,18 @@ td i {
     text-align: center;
     font-size: 16px;
     cursor: pointer;
-    margin-top: 10px;
-    margin-left: 10px;
     border-radius: 4px;
     height: 50px;
     width: 100px;
+}
+
+.a-button {
+    margin-top: 0px;
+    margin-left: 737px;
+}
+
+.i-button {
+    margin-left: 750px;
 }
 
 .backBtn {
@@ -404,8 +411,20 @@ td i {
     
 }
 
+.appointBtn {
+    margin-top: -530px;
+}
+
+.inqBtn {
+    margin-top: -370px;
+} 
+
 
 /* Guidance View */
+.last-appointments {
+    overflow-y: auto;
+}
+
 .appointView {
     margin-top: 30px;
     margin-left: 250px;

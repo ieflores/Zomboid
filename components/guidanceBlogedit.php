@@ -54,13 +54,13 @@ $newtime = date('F j, Y h:i A', $time);
 
         <p><label>Date posted/updated:</label>
         <?=$newtime?></p>
-        <label>Subject:</label>
-        <input type="text" name="sbj" style="margin-left:13px" value="<?=$row["sbj"]?>" required><br>
-        <label>Message:</label>
-        <input type="text" name="msg" style="width: 300px; height: 200px;" value="<?=$row["msg"]?>"  required><br>
+        <label><b>Title:</b><br></label>
+        <input type="text" name="sbj" style="margin-left: 0px; padding: 15px; outline:  none; border: 2px solid #ccc; box-sizing: border-box;" value="<?=$row["sbj"]?>" required><br>
+        <label><b>Description:</b><br></label>
+        <input type="text" name="msg" style="width: 300px; height: 200px; padding: 15px; outline:  none; border: 2px solid #ccc; box-sizing: border-box;" value="<?=$row["msg"]?>"  required><br>
         <center><img src="../images/bimg/<?=$row['filename']?>"  alt="images/bimg/<?=$row['filename']?>" style="width:150px; height:200px; margin-top: 25px;"></center>
-        <input type="file" name="uploadfile" id="uploadfile" value="" style="margin-left:74px"><br>
-        <input type="submit" value="Edit">
+        <input type="file" name="uploadfile" id="uploadfile" value="" style="margin-left:0px;"><br><br>
+        <input type="submit" value="Edit" style="width: 100px; height: 30px; background-color: #ddd900; color: black; font-size: 16px; cursor: pointer;">
  
     </div>
                 
