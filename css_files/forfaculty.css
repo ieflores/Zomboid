@@ -39,7 +39,7 @@ nav img{
     content: ' ';
     width: 0%;
     height: 2px;
-    background: #f44336;
+    background: #e0dd00;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -77,8 +77,8 @@ nav img{
     cursor: pointer;
 }
 .hero-btn:hover{
-    border: 1px solid #f44336;
-    background: #f44336;
+    border: 1px solid #2451ce;
+    background: #2451ce;
     transition: 0.5s;
 }
 
@@ -95,7 +95,7 @@ nav .fa{
     }
     .nav-links{
         position: fixed;
-        background: #f44336;
+        background: #2451ce;
         height: 100vh;
         width: 200px;
         top: 0;
@@ -356,9 +356,9 @@ p{
 
 .red-btn{
     
-    border: 1px solid #f44336;
+    border: 1px solid #2451ce;
     background: transparent;
-    color: #f44336;
+    color: #2451ce;
 }
 
 .red-btn:hover{
@@ -386,7 +386,7 @@ p{
 
 .contact-col div .fa{
     font-size: 28px;
-    color: #f44336;
+    color: #2451ce;
     margin: 30px;
     margin-right: 50px;
 }

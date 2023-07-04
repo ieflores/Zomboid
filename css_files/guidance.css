@@ -17,7 +17,7 @@ body {
     position: fixed;
     width: 300px;
     height: 100%;
-    background: linear-gradient(45deg, #d1c700, #efd047);
+    background: #444;
     overflow-x: hidden;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     z-index: 2;
@@ -251,7 +251,7 @@ td i {
 }
 
 .fa-solid, .fa-pencil, .fa-th-large, .fa-clinic-medical, .fa-user-md, .fa-calendar-users, .fa-address-book, .fa-list-alt, .fa-clock {
-    color: #333;
+    color: #FFD700;
 }
 
 .fa-bell{
@@ -273,6 +273,11 @@ td i {
 .logo {
     height: auto;
     width: auto;
+}
+
+.apclogo {
+    height: 55px;
+    width: 55px;
 }
 
 /* scheduling */
