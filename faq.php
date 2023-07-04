@@ -33,24 +33,35 @@ family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
 <div class="faqs">
 <h1 class="freq">FREQUENTLY ASKED QUESTIONS</h1>
     <p>
-        <h3>1. </h3>       
-        <h4>Answer</h4>
+        <h3>1. What is counseling?</h3>       
         <ol>
-            <li>hello world</li>
+            <li>Counseling is a collaborative session between the counselor and the counselee (student). The counselor helps the
+            counselee identify the goals <br> and solutions to problems that cause emotional distress in their lives that could affect
+            over all school performance. Counselors seek to improve <br> communication, coping skills, and self-esteem, and facilitate
+            change in behavioral patterns of the counselee.</li>
         </ol>
         <br>
-        <h3>2. </h3> 
-        <h4>Answer</h4>
+        <h3>2. Do I need an appointment to see a counselor?</h3> 
+        <!-- <h4>Answer</h4> -->
         <ol>
-            <li>hello world</li>
+            <li>Yes. In certain situations when there is an urgent need for intervention, <br> the office accomodates the 
+                counselee as soon as a counselor is available.
+            </li>
         </ol>
         <br>
-        <h3>3. </h3> 
+        <h3>3. What are the counseling office hours?</h3> 
+        <!-- <h4>Answer</h4> -->
+        <ol>
+            <li>Office hours are Monday through Friday, 7:00am to 5:00pm.</li>
+        </ol>
+        <!-- <h3>4. </h3> 
         <h4>Answer</h4>
         <ol>
             <li>hello world</li>
         </ol>
+        -->
     </p>
+    <br><br>
 
 </div>
 

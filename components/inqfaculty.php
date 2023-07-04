@@ -114,10 +114,10 @@
     <div class="contact-col" >
 
             <container class="faqlbl">
-                <label for="faq"><b>Enter your subject</b><br></label>
+                <label for="faq"><b>Choose a subject</b><br></label>
                 <select id="isbj" name="isbj">
-                    <option value="Request for change in Appointment Schedule setting">Request for change in Appointment Schedule setting</option>
-                    <option value="Financial Assistance">Financial Assistance</option>
+                    <option value="Request to set a Counseling Schedule">Request to set a Counseling Schedule</option>
+                    <option value="Request for change in Appointment Schedule setting">Request for change in Counseling Appointment setting</option>    
                     <option value=""></option>
                 </select>
             </container>

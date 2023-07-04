@@ -10,7 +10,7 @@ if (!isset($_SESSION['loggedin'])) {
 
 require "connect.php";
 
-    $sql="SELECT * FROM blog OFFSET 3";
+    $sql="SELECT * FROM blog";
     $result = mysqli_query($con,$sql);
     $i = 0;
 ?>

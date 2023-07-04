@@ -132,15 +132,15 @@ mysqli_close($con);
                         <tbody>
                             <tr>
                                 <td>Arnold Francis Oriño</td>
-                                <td>14:00</td>
+                                <td>7:00AM to 5:00PM</td>
                             </tr>
                             <tr>
                                 <td>Kamille Salvana</td>
-                                <td>15:00</td>
+                                <td>7:00AM to 5:00PM</td>
                             </tr>
                             <tr>
                                 <td>Ayesa A. Aguilar</td>
-                                <td>16:00</td>
+                                <td>7:00AM to 5:00PM</td>
                             </tr>
                         </tbody>
                     </table>
