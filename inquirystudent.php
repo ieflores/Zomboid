@@ -41,6 +41,7 @@ family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
                         <option value="Request to set a Counseling Schedule">Request to set a Counseling Schedule</option>
                         <option value="Request for change in Appointment Schedule setting">Request for change in Counseling Appointment setting</option>
                         <option value="Financial Assistance">Financial Assistance</option>
+                        <option value="other">Other</option>
                     </select>
                 </container>
                 <input type="hidden" id="iid" name="iid" value="<?=$_SESSION["id"]?>">
@@ -70,6 +71,7 @@ family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
     function hideMenu(){
         navLinks.style.right = "-200px";
     }
+
 
 </script>
 
