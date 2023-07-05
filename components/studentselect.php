@@ -36,20 +36,20 @@ while($asrow = mysqli_fetch_array($result)) {
                     <h4 class="mb-0">Email:</h4>
                     </div>
                     <div class="col-sm-9 text-secondary">
-                    <?=$asrow['username']?>
+                    <?=$asrow['email']?>
                     </div>
                     </div>
 
                     <br>
 
-                    <?php if ($asrow["class"] == "ss201"){?>
-                    <img name="ssched" id="ssched" src="images/<?=$asrow['class']?>.png" alt="Admin" class="rounded-circle" width="300px">
+                    <?php if ($asrow["course"] == "bscsss"){?>
+                    <img name="ssched" id="ssched" src="images/<?=$asrow['course']?>.png" alt="Admin" class="rounded-circle" width="300px">
 
-                    <?php } elseif ($asrow["class"] == "sf201"){ ?>
-                    <img name="ssched" id="ssched" src="images/<?=$asrow['class']?>.png" alt="Admin" class="rounded-circle" width="300px">
+                    <?php } elseif ($asrow["course"] == "bscssf"){ ?>
+                    <img name="ssched" id="ssched" src="images/<?=$asrow['course']?>.png" alt="Admin" class="rounded-circle" width="300px">
 
-                    <?php } elseif ($asrow["class"] == "mi202"){ ?>
-                    <img name="ssched" id="ssched" src="images/<?=$asrow['class']?>.png" alt="Admin" class="rounded-circle" width="300px">
+                    <?php } elseif ($asrow["course"] == "bsitmi"){ ?>
+                    <img name="ssched" id="ssched" src="images/<?=$asrow['course']?>.png" alt="Admin" class="rounded-circle" width="300px">
                     <?php } else {}?>
 
 
@@ -124,7 +124,7 @@ while($asrow = mysqli_fetch_array($result)) {
                     
 
 <input type="hidden" id="aname" name="aname" value="<?=$asrow['fname']. " " . $asrow['lname']?>">
-<input type="hidden" id="aemail" name="aemail" value="<?=$asrow['username']?>">
+<input type="hidden" id="aemail" name="aemail" value="<?=$asrow['email']?>">
 
 
 

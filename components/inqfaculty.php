@@ -55,7 +55,7 @@
         
             <input type="hidden" name="iid" id="iid" value="<?=$_SESSION['id']?>" required>
             <input type="hidden" name="iname" id="iname" value="<?=$_SESSION['fname'] . " " . $_SESSION['lname'] ?>" required>
-            <input type="hidden" name="iemail" id="iemail" value="<?=$_SESSION['username']?>" required>
+            <input type="hidden" name="iemail" id="iemail" value="<?=$_SESSION['email']?>" required>
 
                 <br>
                     <div class="studentid">STUDENT NO.</div>

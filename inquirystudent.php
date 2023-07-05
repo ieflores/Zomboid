@@ -46,7 +46,7 @@ family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
                 </container>
                 <input type="hidden" id="iid" name="iid" value="<?=$_SESSION["id"]?>">
                 <input type="hidden" id="iname" name="iname" value="<?=$_SESSION["fname"]. " " . $_SESSION["lname"]?>">
-                <input type="hidden"  id="iemail" name="iemail" value="<?=$_SESSION["username"]?>">
+                <input type="hidden"  id="iemail" name="iemail" value="<?=$_SESSION["email"]?>">
                 <textarea rows="8" id="imsg" name="imsg" placeholder="Message" style="border: 2px solid #ccc; box-sizing: border-box; padding: 15px;" required></textarea>
                 <button type="submit" class="submitbtn">Send Message</button>
 </form>
@@ -59,7 +59,6 @@ family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
 
 
 <!----JavaScript for toggle menu ----->
-
 
 <script>
 

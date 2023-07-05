@@ -24,7 +24,7 @@ if (isset($_SESSION['loggedin'])) {
       <h1>Login</h1>
       <form method="POST" action="authentication.php">
         <div class="txt_field">
-          <input type="email" name="username" id="username" required>
+          <input type="email" name="email" id="email" required>
           <span></span>
           <label>APC Email</label>
         </div>

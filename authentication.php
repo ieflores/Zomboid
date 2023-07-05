@@ -2,15 +2,15 @@
 session_start();
 require "connect.php";
 // Now we check if the data from the login form was submitted, isset() will check if the data exists.
-if ( !isset($_POST['username'], $_POST['pword']) ) {
+if ( !isset($_POST['email'], $_POST['pword']) ) {
 	// Could not get the data that should have been sent.
-	exit('Please fill both the username and password fields!');
+	exit('Please fill both the email and password fields!');
 }
 
 // Prepare our SQL, preparing the SQL statement will prevent SQL injection.
-if ($stmt = $con->prepare('SELECT id, pword,fname,lname, position FROM accounts WHERE username = ?')) {
+if ($stmt = $con->prepare('SELECT id, pword,fname,lname, position FROM accounts WHERE email = ?')) {
 	// Bind parameters (s = string, i = int, b = blob, etc), in our case the username is a string so we use "s"
-	$stmt->bind_param('s', $_POST['username']);
+	$stmt->bind_param('s', $_POST['email']);
 	$stmt->execute();
 	// Store the result so we can check if the account exists in the database.
 	$stmt->store_result();
@@ -29,7 +29,7 @@ if ($stmt = $con->prepare('SELECT id, pword,fname,lname, position FROM accounts 
             $_SESSION['fname'] = $fname; 
 			$_SESSION['lname'] = $lname; 
             $_SESSION['id'] = $id;
-            $_SESSION['username'] = $_POST["username"];
+            $_SESSION['email'] = $_POST["email"];
             $_SESSION['position'] = $position; 
 			header('Location: index.php');
         } else {
