@@ -31,7 +31,9 @@ if ($stmt = $con->prepare('SELECT id, pword,fname,lname, position FROM accounts 
             $_SESSION['id'] = $id;
             $_SESSION['email'] = $_POST["email"];
             $_SESSION['position'] = $position; 
-			header('Location: index.php');
+			include ('dataprivacy.php');
+
+
         } else {
             // Incorrect password
             include ('login.php');

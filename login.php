@@ -33,9 +33,11 @@ if (isset($_SESSION['loggedin'])) {
           <span></span>
           <label>Password</label>
         </div>
-        <label class="cb-container"> <input type="checkbox" required> I agree to the <a href="https://www.privacy.gov.ph/data-privacy-act/">Data Privacy Policy</a></input>
-          
-          
+
+        <!--
+        <label class="cb-container"> <input type="checkbox" required> I agree to the <a href="https://www.privacy.gov.ph/data-privacy-act/">Data Privacy Policy</a></input>  
+        --> 
+        
         </label>
         <input class="button" type="submit" value="Login">
       </form>
