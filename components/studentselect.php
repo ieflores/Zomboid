@@ -24,10 +24,10 @@ while($asrow = mysqli_fetch_array($result)) {
                 <br>
                     <div class="row">
                     <div class="col-sm-3">
-                    <h4 class="mb-0">ID:</h4>
+                    <h4 class="mb-0">Course:</h4>
                     </div>
                     <div class="col-sm-9 text-secondary">
-                    <?=$asrow['id']?>
+                    <?=$asrow['course']?>
                     </div>
                     </div>
                 <br>

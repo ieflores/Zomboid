@@ -411,6 +411,12 @@ p{
     box-sizing: border-box;
 }
 
+#others {
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
 /*--- container ---*/
 
 .container2 {

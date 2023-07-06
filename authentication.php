@@ -36,13 +36,13 @@ if ($stmt = $con->prepare('SELECT id, pword,fname,lname, position FROM accounts 
             // Incorrect password
             include ('login.php');
 			
-            echo'<p style="padding-top:10px; margin-left:875px; color: red;"><i>Invalid Password</i></p>';
+            echo'<p style="margin-left:650px; color:#FFD700;"><i><b>Invalid Password</b></i></p>';
         }
         
     } else {
         // Incorrect username
         include ('login.php');
-        echo'<p style="padding-top:10px; margin-left:875px; color: red;"><i>Invalid Username</i></p>';
+        echo'<p style="padding-top:10px; margin-left:650px; color:#FFD700;"><i><b>Invalid Username</b></i></p>';
     }
 
 	$stmt->close();

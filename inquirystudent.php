@@ -37,13 +37,22 @@ family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
                 <container class="faqlbl">
                     <label for="faq"><b>Choose a subject</b><br></label>
                     <select id="isbj" name="isbj">
-                        <option value=""></option>
                         <option value="Request to set a Counseling Schedule">Request to set a Counseling Schedule</option>
                         <option value="Request for change in Appointment Schedule setting">Request for change in Counseling Appointment setting</option>
-                        <option value="Financial Assistance">Financial Assistance</option>
-                        <option value="other">Other</option>
+                        <option value="Others">Others</option>      
+                        <option value=""></option>
                     </select>
+
                 </container>
+
+                <!-- HTML select input that will be shown only when option1a is selected -->
+                <div id="option2-wrapper" style="display:none;">
+                            <!--others-->
+                            <label><b>Enter your subject of concern:</b></label>
+                            <input name="others" id="others">
+                            </select>
+                </div>
+
                 <input type="hidden" id="iid" name="iid" value="<?=$_SESSION["id"]?>">
                 <input type="hidden" id="iname" name="iname" value="<?=$_SESSION["fname"]. " " . $_SESSION["lname"]?>">
                 <input type="hidden"  id="iemail" name="iemail" value="<?=$_SESSION["email"]?>">
@@ -71,6 +80,15 @@ family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
         navLinks.style.right = "-200px";
     }
 
+              document.getElementById("isbj").addEventListener("change", function() {
+                var selectedValue = this.value;
+                var option2Wrapper = document.getElementById("option2-wrapper");
+                if (selectedValue === "Others") {
+                  option2Wrapper.style.display = "block";
+                } else {
+                  option2Wrapper.style.display = "none";
+                }
+              });
 
 </script>
 

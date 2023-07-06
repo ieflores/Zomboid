@@ -94,6 +94,15 @@ while($asrow = mysqli_fetch_array($result)) {
               
                     <div class="row">
                     <div class="col-sm-3">
+                    <h4 class="mb-0">Premise:</h4>
+                    </div>
+                    <div class="col-sm-9 text-secondary">
+                    <?=$asrow['prem']?>
+                    </div>
+                    </div>
+
+                    <div class="row">
+                    <div class="col-sm-3">
                     <h4 class="mb-0">Appointment Sched:</h4>
                     </div>
                     <div class="col-sm-9 text-secondary">
